@@ -1,12 +1,12 @@
 import { css } from "@emotion/core";
 
 export const logo = css`
-width: 343px;
-height: 36.95px;
-margin-top: 23px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+  width: 343px;
+  height: 36.95px;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 `;
 
 export const navbar = css`
@@ -14,11 +14,11 @@ export const navbar = css`
   margin: 0;
   list-style: none;
   text-align: center;
-  padding: 2em;
+  padding: 0.75em;
 
   > li {
- margin-left: 5vw;
- margin-right: 5vw;
+ margin-left: 7vw;
+ margin-right: 7vw;
     display: inline-block;
   > a,
     button {

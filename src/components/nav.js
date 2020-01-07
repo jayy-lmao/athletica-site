@@ -17,7 +17,13 @@ const nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/merch">Merch</Link>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://athletica.bigcartel.com/"
+        >
+          Merch
+        </a>
       </li>
     </ul>
   </>
