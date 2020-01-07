@@ -1,4 +1,8 @@
-import {css} from '@emotion/core';
+import { css } from "@emotion/core";
+
+export const logo = css`
+  height: 50px;
+`;
 
 export const navbar = css`
   padding: 0;
@@ -8,8 +12,8 @@ export const navbar = css`
   padding: 2em;
 
   > li {
- margin-left: 20px;
- margin-right: 20px;
+ margin-left: 5vw;
+ margin-right: 5vw;
     display: inline-block;
   > a,
     button {
@@ -24,4 +28,4 @@ export const navbar = css`
         color: grey;
       }
     }
-`
+`;

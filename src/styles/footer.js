@@ -1,4 +1,4 @@
-import {css} from '@emotion/core';
+import { css } from "@emotion/core";
 
 export const container = css`
   background-color: black;
@@ -8,4 +8,4 @@ export const container = css`
   position: fixed;
   text-align: center;
   width: 100%;
-`
+`;
