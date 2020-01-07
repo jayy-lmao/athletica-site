@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import Nav from "./components/nav";
+import Main from "./components/main";
+import Footer from "./components/footer";
+import Routes from "./Routes";
+import * as styles from "./styles/app";
+import { Helmet } from "react-helmet";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+/** @jsx jsx */
+import { jsx } from "@emotion/core";
+
+const App = () => (
+  <div css={styles.appStyle}>
+    <Helmet>
+      <style>{"body { background-color: black; }"}</style>
+    </Helmet>
+    <Nav />
+    <main>
+      <Routes />
+    </main>
+    <Footer />
+  </div>
+);
 
 export default App;
