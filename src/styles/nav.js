@@ -1,7 +1,12 @@
 import { css } from "@emotion/core";
 
 export const logo = css`
-  height: 50px;
+width: 343px;
+height: 36.95px;
+margin-top: 23px;
+margin-left: auto;
+margin-right: auto;
+display: block;
 `;
 
 export const navbar = css`
@@ -19,10 +24,14 @@ export const navbar = css`
     button {
       text-decoration: none;
       background: none;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+
       border: none;
-      font-size: 24px;
       color: white;
-      font-family: Arial, Helvetica, sans-serif;
       cursor: pointer;
       :hover {
         color: grey;
