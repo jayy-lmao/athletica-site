@@ -4,6 +4,7 @@ import { jsx } from "@emotion/core";
 import * as styles from "../styles/main";
 
 const Main = () => (
+  <div css={styles.section}>
   <div css={styles.container}>
     <iframe
       css={styles.videoPlayer}
@@ -13,6 +14,7 @@ const Main = () => (
       allowfullscreen
     ></iframe>
   </div>
+</div>
 );
 
 export default Main;

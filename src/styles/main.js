@@ -1,5 +1,11 @@
 import { css } from "@emotion/core";
 
+export const section = css`
+margin: auto;
+width: 90%;
+margin-bottom: 140px;
+`
+
 export const container = css`
   position: relative;
   @media only screen and (max-width: 600px) {

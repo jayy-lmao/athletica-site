@@ -17,8 +17,8 @@ export const navbar = css`
   padding: 0.75em;
 
   > li {
- margin-left: 7vw;
- margin-right: 7vw;
+ margin-left: 5%;
+ margin-right: 5%;
     display: inline-block;
   > a,
     button {
