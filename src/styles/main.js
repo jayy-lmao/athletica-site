@@ -1,10 +1,10 @@
 import { css } from "@emotion/core";
 
 export const section = css`
-margin: auto;
-width: 90%;
-margin-bottom: 140px;
-`
+  margin: auto;
+  width: 90%;
+  margin-bottom: 140px;
+`;
 
 export const container = css`
   position: relative;
