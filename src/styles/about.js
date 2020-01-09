@@ -22,5 +22,6 @@ export const text = css`
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  margin: auto;
   margin-bottom: 160px;
 `;
